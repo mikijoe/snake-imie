@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/mikijoe/snake-imie/issues"
   },
-  "homepage": "https://github.com/mikijoe/snake-imie#readme"
+  "homepage": "https://github.com/mikijoe/snake-imie#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
 }
