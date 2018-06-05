@@ -1,0 +1,19 @@
+{
+  "name": "snake-imie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikijoe/snake-imie.git"
+  },
+  "author": "jonathan dodard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikijoe/snake-imie/issues"
+  },
+  "homepage": "https://github.com/mikijoe/snake-imie#readme"
+}
