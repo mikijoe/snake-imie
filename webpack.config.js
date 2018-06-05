@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const HtmlWebpackPlugin = require('hmlt-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: [path.resolve('./src/index.js')],
@@ -14,7 +14,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: [path.resolve('./node_modules')],
-                use: 'badel-loader'
+                use: 'babel-loader'
             }
         ]
     },
@@ -37,8 +37,8 @@ module.exports = {
         port: 3000,
         host: 'localhost',
         compress: true,
-        historyApiFallBack: true,
-        header: {
+        historyApiFallback: true,
+        headers: {
             'Access-Control-Allow-Origin':'*'
         }
     }
