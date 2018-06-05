@@ -14,7 +14,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: [path.resolve('./node_modules')],
-                use: 'badel-loader',
+                use: 'badel-loader'
             }
         ]
     },
