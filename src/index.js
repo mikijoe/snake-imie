@@ -6,6 +6,7 @@ import Input from 'components/Input'
 render(
     <div>
         <h1>Hello world</h1>
+        {/* on attribut la key onclick et ca value dans les props */}
         <Button/>
         <Input/>
     </div>,
