@@ -37,7 +37,7 @@ module.exports = {
         port: 3000,
         host: 'localhost',
         compress: true,
-        hisotryApiFallBack: true,
+        historyApiFallBack: true,
         header: {
             'Access-Control-Allow-Origin':'*'
         }
