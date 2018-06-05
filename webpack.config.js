@@ -29,5 +29,17 @@ module.exports = {
             path.resolve('./src'),
             path.resolve('./node_modules')
         ]
+    },
+    devtool: "eval-source-map",
+    devServer: {
+        contentBase:path.resolve('./dist'),
+        watchContentBase: true,
+        port: 3000,
+        host: 'localhost',
+        compress: true,
+        hisotryApiFallBack: true,
+        header: {
+            'Access-Control-Allow-Origin':'*'
+        }
     }
 }
