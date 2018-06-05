@@ -1,5 +1,12 @@
 import React, { PureComponent } from 'react'
 
+const  styles = (props, state) => ({
+    button: {
+        backgroundColor: state.count > 10 ? 'red' : 'blue',
+        color: state.count > 10 ? 'black' : 'white'
+    }
+});
+
 class Button extends PureComponent {
     constructor(props) {
         super(props);
@@ -20,7 +27,7 @@ class Button extends PureComponent {
 
     render(){
         return(
-            <button onClick={this.handleClick}>
+            <button onClick={this.handleClick} style={styles.button}>
             {`hello, you clicked me ${this.state.count}times`}
             </button>
         )
